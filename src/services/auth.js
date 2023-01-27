@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://final-project-backend-e55mlgzkc-lansilvester.vercel.app';
 
 const register = (name, email, password) => 
 {

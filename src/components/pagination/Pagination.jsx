@@ -37,10 +37,10 @@ return (
 {data.map(item => (
   <Link to={`/SubSubPage`} onClick={() => localStorage.setItem("clickedId", item._id)}>
 <Card key={item._id}
-className="card"
-style={{ width: '30%', margin: '1rem 0'}}
-image={'https://img.freepik.com/free-photo/river-surrounded-by-forests-cloudy-sky-thuringia-germany_181624-30863.jpg?w=826&t=st=1674642474~exp=1674643074~hmac=000f741aae40b99fc71fdf05fec220ba53725440ea5d67b8998a3b1b26a8b359'}
-title={item.title}
+  className="card"
+  style={{ width: '30%', margin: '1rem 0'}}
+  image={'https://img.freepik.com/free-photo/river-surrounded-by-forests-cloudy-sky-thuringia-germany_181624-30863.jpg?w=826&t=st=1674642474~exp=1674643074~hmac=000f741aae40b99fc71fdf05fec220ba53725440ea5d67b8998a3b1b26a8b359'}
+  title={item.title}
 />
 </Link>
 ))}
